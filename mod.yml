@@ -1,0 +1,76 @@
+title: Roxas Mod's Days Command Menu Re:Fined Fix
+originalAuthor: Romulus
+description: Restores the Roxas Mod's Days Command Menu over Kingdom Hearts Command Menu when used with Re:Fined.  Requires Roxas Mod 3.0.  Credit TieuLink, KHBoomer
+game: kh2
+dependencies: 
+assets:
+- name: field2d\fr\tt1command.2dd
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi: 
+  source:
+  - name: field2d\fr\tt1command.2dd
+- name: field2d\gr\tt1command.2dd
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi: 
+  source:
+  - name: field2d\gr\tt1command.2dd
+- name: field2d\it\tt1command.2dd
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi: 
+  source:
+  - name: field2d\it\tt1command.2dd
+- name: field2d\sp\tt1command.2dd
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi: 
+  source:
+  - name: field2d\sp\tt1command.2dd
+- name: field2d\us\tt1command.2dd
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi: 
+  source:
+  - name: field2d\us\tt1command.2dd
+- name: remastered\field2d\fr\tt1command.2dd\FR_tt1command_2dd0.png
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+    - name: remastered\field2d\fr\tt1command.2dd\FR_tt1command_2dd0.png
+- name: remastered\field2d\gr\tt1command.2dd\GR_tt1command_2dd0.png
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+    - name: remastered\field2d\gr\tt1command.2dd\GR_tt1command_2dd0.png
+- name: remastered\field2d\it\tt1command.2dd\IT_tt1command_2dd0.png
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+    - name: remastered\field2d\it\tt1command.2dd\IT_tt1command_2dd0.png
+- name: remastered\field2d\sp\tt1command.2dd\SP_tt1command_2dd0.png
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+    - name: remastered\field2d\sp\tt1command.2dd\SP_tt1command_2dd0.png
+- name: remastered\field2d\us\tt1command.2dd\US_tt1command_2dd0.png
+  method: copy
+  platform: pc
+  package: kh2_fifth
+  multi:
+  source:
+    - name: remastered\field2d\us\tt1command.2dd\US_tt1command_2dd0.png
